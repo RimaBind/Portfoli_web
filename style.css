@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.sidebar{
+    background-color: #948e87;
+    width: 250px;
+    flex-shrink: 0;
+   font-family: 'Courier New', Courier, monospace;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+text-decoration: none;
+color: black
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    
+    
+background-color: rgb(187, 183, 183);
+    width: 200vh;
+    padding: 20px;
+   
+    
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.infoontainer{ 
+    background-color:rgb(136, 122, 122);
+    display: flex;
+    height: 45vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    font-size: 50px;
+}
+
+   .infoontainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+   width: 100%;
+    padding: 40px 60px;         
+    box-sizing: border-box;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+   
+
+.hello{
+    font-size: 80px;
+    color:rgb(22, 22, 100);
+    font-weight: bold;
+
+}
+hr{
+    
+    width: 110%;
+    margin-left: 0%;
+    margin-right: 10px;
+    margin-bottom: 5%;
+    border: 3px solid rgb(6, 1, 20);
+}                                                                                        
+.name{
+  font-size: 65px;
+  padding: 0%;
+  font-weight: normal;
+  color: rgb(47, 47, 71);
+  
+  
+
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.about{
+    font-size: 50px;
+    margin: 15px;
+}
+.moreabout{
+    margin: 22px;
+font-size: 30px;
+margin-top: 23px;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.btn button{
+padding: 20px;
+border-radius: 30px;
+color: rgb(50, 45, 59);
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer;
+background-color: rgb(88, 88, 190);
+}
+.btn button :hover{
+background-color: rgb(85, 20, 20);
+color: rgb(18, 116, 18);
+
+}
+
+.contactform{
+            padding-top: 144px;
+            padding: 0 34px;
+    font-size: 23px;
+      color: #251f16;
+      background-color: #e0d8ce;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 300px;
+}
+
+
+
+.contactform h1{
+     
+    margin-top: -180px;
+    color: #241c13;
+    padding: 12px 0;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+background-color: #e0d8ce;
+text-align: center;
+width: 100%;
+}
+.contactform div{
+
+    padding: 10px 0;
+}
+
+.form-text{
+     font-size: 13px;
+     font-weight: bold;
+     color: rgb(90, 82, 77);
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: rgb(43, 43, 116);
+    margin: 0 5px;
+}
+
+.contactform form div input{
+     width: 16vh;
+     border-radius: 5px;
+     margin: 6px 0 0 0;
+     padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+}
+.form-check-input {
+ 
+ width: 24px;
+    margin: 3px 0;
+}
+.mt{
+    display: flex;
+   align-items: center;
+}
+.mt input[type="checkbox"]{
+     width: 50px;
+     flex-shrink: 0;
+     margin: 0;
+     cursor: pointer;
+}
+
+ 
+img{
+    width: 10px;
+    height: auto;
+}
+
+.mainimg {
+    width: 400px !important;
+    height: 400x !important;
+    border-radius: 48%;
+    object-fit: cover !important;
+    margin: -60px;
+    margin-left: 40px;
+}
+.cursor {
+  font-weight: bold;
+  color: #007bff;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.aboutme{
+    font-size: 80px;
+    margin: 23px;
+    text-align: center;
+}
+.line{
+height: 3px;
+background-color: black;
+margin: 20px auto;
+
+}
+.summary{
+    font-size: 45px;
+    margin-right: 60%;
+    margin-top: 20px;
+}
+.mainFile{
+    background-color: #a8a4a0;
+    text-align: center;
+}
+
+.intro {
+    width: 400px !important; /* !important lagane se yeh har haal me apply hoga */
+    height: auto !important;
+}
+.image_7{
+    width: 300px;
+    height: auto;
+    margin-left: 50%;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -300px;
+   
+}
+.line{
+    display: flex;
+    align-items: flex-start;
+}
+.imgName{
+        font-size: 80px;
+    text-align: right;
+    margin-right: 16%;
+    flex-direction: column;
+    color: rgb(34, 34, 141);
+}
+.imaigemain{
+    text-align: center;
+}
+
+.aboutme{
+color: rgb(34, 34, 141); 
+}
+
+
+.btn_contact:hover {
+    color: rgb(45, 192, 192) !important; /* Changes ONLY the text color to aqua when hovered */
+    cursor: pointer; 
+    background-color: white;       /* Ensures the cursor turns into a clicking hand pointer */
+    
+    /* Optional: If you want the text to look slightly bolder or pop out on hover */
+    transform: scale(1.05); 
+}
+
+.all_icons{
+    margin-left: 0;
+    padding: 0;
+}
+.all_sk{
+    font-size: 40px;
+    color: #150988c7;
+    padding: 8px;
+    background-color: rgb(225, 228, 222);
+}
+.bold{
+    color: black;
+}
+
+.cont_me{
+    font-size: 45px;
+}
